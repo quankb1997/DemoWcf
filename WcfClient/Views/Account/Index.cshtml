@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Login</h1>
+<form asp-action="Login" method="post">
+    <div class="row">
+        <div class="col-md-2 offset-md-3">Email</div>
+        <div class="col-md-4">
+            <input name="email" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 offset-md-3">Password</div>
+        <div class="col-md-4">
+            <input name="password" />
+        </div>
+    </div>      
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <input type="submit" value="Login" />
+        </div>
+    </div>
+    
+</form>
